@@ -1,0 +1,314 @@
+@media only screen and (max-width: 710px) {
+	#header{
+		width:100%;
+		#height:30%;
+		#position:absolute;
+	}
+	#header-1{
+		width:100%;
+		#height:66%;
+		background-color:red;
+		background-image:radial-gradient(red,orange,purple,orange);
+		text-align:center;
+		padding:1%;
+		box-sizing:border-box;
+		
+		
+	}
+	#header-2{
+		width:100%;
+		#height:33%;
+		background-color:yellow;
+		background-image:linear-gradient(green,black);
+		text-align:center;
+		color:white;
+		font-weight:700;
+		
+	}
+	#header-3{
+		display:none;
+	}
+	#content{
+		box-sizing:border-box;
+		width:100%;		
+		min-height:30%;
+		background-image: radial-gradient(#86266b,#3f042f,#000000);
+		padding:2%;
+		
+	}
+	.logo{
+		height:auto;
+		width:80%;
+		display:none;
+	}
+	.name{
+		height:auto;
+		width:80%;
+		vertical-align:center;
+	}
+	.category{
+		width:15%;
+		display:inline-block;
+		text-align:center;
+		color:purple;
+		font-weight:700;
+		border:solid 1px grey;
+		background-image:linear-gradient(to bottom right,pink,white,pink);
+		margin:1% 0;
+		padding:1% 0;
+		font-size:initial;
+	}
+	.category:hover{
+		background-image:linear-gradient(to bottom right,#f25a84,white,#f25a84);
+		cursor:pointer;
+	}
+	.item-container{
+		width:95%;
+		padding:2%;
+		border:solid 1px grey;
+		border-radius:10px;
+		background-color:rgba(0,0,0,0.4);
+		
+	}
+	.item-box{
+		overflow:hidden;
+	}
+	.item-div{
+		width:96%;
+		border:1px solid yellow;
+		margin:10px;
+		box-sizing:border-box;
+		padding:4px;
+		background-color:yellow;
+	}
+	.item-img{
+		height:90px;
+		width:100%;
+	}
+	.item-info{
+		box-sizing:border-box;
+		text-align:center;
+		color:purple;
+		font-size:x-large;
+		font-weight:bold;
+		font-family:forte;
+		
+	}
+	.item-buy{
+		margin-left:10%;
+		width:80%;
+		background-color:#008000;
+		color:white;
+		font-weight:bold;
+		text-align:center;
+		border:solid 2px white;
+		box-sizing:border-box;
+		margin-bottom:4px;
+	}
+	.item-buy:hover{
+		cursor:pointer;
+		#box-shadow:4 4 0 0 purple;
+		background-color:00f000;
+		margin-bottom:0px;
+		padding:2px 0px;
+	}
+	.item-info:hover{
+		cursor:pointer;
+		color:white;
+		text-shadow: -1px 1px 0 purple,
+					1px 1px 0 purple,
+					1px -1px 0 purple,
+					-1px -1px 0 purple;
+	}
+	#footer{
+		width:100%;
+		display:flex;
+		padding:2%;
+		box-sizing:border-box;
+		background-image:linear-gradient(to bottom right,#f1f1f1,#d0d0d0);
+		
+	}
+	#footer-child1{
+		width:60%;
+		height:100%;
+		display:inline-block;
+		text-align:center;
+		padding:0 2% 0 0;
+	}
+	#heading-hotel{
+		display:inline-block;
+		width:50%;
+		margin-right:1%;
+		border:solid 2px black;
+		border-radius:12%;
+		text-align:center;
+		padding:2%;
+		font-family:'Hobo std', fantasy;
+		font-size:larger;
+	}
+	#footer-child2{
+		display:inline-block;
+		width:40%;
+		float:right;
+	}
+}
+@media only screen and (min-width: 711px) {
+	#header{
+		width:100%;
+		height:28.9%;
+		#position:absolute;
+		box-sizing:border-box;
+		
+	}
+	#header-1{
+		width:100%;
+		height:66%;
+		background-color:red;
+		background-image:radial-gradient(orange,orange,purple,orange);
+		text-align:center;
+		padding:1%;
+		box-sizing:border-box;
+		z-index:99;
+		
+	}
+	#header-2{
+		width:100%;
+		#height:33%;
+		background-image:linear-gradient(green,black);
+		text-align:center;
+		color:white;
+		font-weight:700;
+		
+	}
+	#header-3{
+		display:flex;
+		width:100%;
+		text-align:center;
+		background-image:linear-gradient(to bottom,#ff9800,#cc6500);
+		color:white;
+		font-weight:700;
+		font-size:120%;
+		box-shadow: 0px 2px 0px 0px black;
+	}	
+	#content{
+		box-sizing:border-box:
+		width:100%;		
+		min-height:30%;
+		background-image: radial-gradient(#86266b,#3f042f,#000000);
+		padding:3%;
+	}
+	.item-container{
+		width:90%;
+		margin:0 2%;
+		padding:2%;
+		border:solid 1px grey;
+		border-radius:10px;
+		background-color:rgba(0,0,0,0.4);
+	}
+	.logo{
+		height:100%;
+		width:auto;
+	}
+	.name{
+		height:100%;
+		width:auto;
+	}
+	.category{
+		width:20%;
+		height:inherit;
+		display:inline-block;
+		text-align:center;
+		color:purple;
+		font-weight:700;
+		border:solid 1px grey;
+		background-image:linear-gradient(to bottom right,pink,white,pink);
+		margin:4px;
+		padding:8 0;
+		font-size:initial;
+	}
+	.category:hover{
+		background-image:linear-gradient(to bottom right,#f25a84,white,#f25a84);
+		cursor:pointer;
+	}
+	.item-div{
+		width:50%;
+		border:1px solid yellow;
+		margin:10px;
+		box-sizing:border-box;
+		padding:4px;
+		background-color:yellow;
+	}
+	.item-box{
+		display:flex;
+		overflow:hidden;
+	}
+	.item-buy{
+		width:100%;
+		background-color:#008000;
+		color:white;
+		font-weight:bold;
+		text-align:center;
+		border:solid 2px white;
+		box-sizing:border-box;
+		margin-bottom:4px;
+	}
+	.item-img{
+		height:90px;
+		width:100%;
+	}
+	.item-info{
+		box-sizing:border-box;
+		text-align:center;
+		color:purple;
+		font-size:larger;
+		font-weight:bold;
+		font-family:forte;
+		
+	}
+	.item-buy:hover{
+		cursor:pointer;
+		#box-shadow:4 4 0 0 purple;
+		background-color:00f000;
+		margin-bottom:0px;
+		padding:2px 0px;
+	}
+	.item-info:hover{
+		cursor:pointer;
+		color:white;
+		text-shadow: -1px 1px 0 purple,
+					1px 1px 0 purple,
+					1px -1px 0 purple,
+					-1px -1px 0 purple;
+	}
+	#footer{
+		width:100%;
+		display:flex;
+		padding:2%;
+		box-sizing:border-box;
+		background-image:linear-gradient(to bottom right,#f1f1f1,#d0d0d0);
+		
+	}
+	#footer-child1{
+		width:60%;
+		height:100%;
+		display:inline-block;
+		text-align:center;
+		padding:0 2% 0 0;
+	}
+	#heading-hotel{
+		display:inline-block;
+		width:50%;
+		margin-right:1%;
+		border:solid 2px black;
+		border-radius:12%;
+		text-align:center;
+		padding:2%;
+		font-family:'Hobo std', fantasy;
+		font-size:larger;
+	}
+	#footer-child2{
+		display:inline-block;
+		width:40%;
+		float:right;
+	}
+	
